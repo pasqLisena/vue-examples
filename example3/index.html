@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue Examples</title>
+  </head>
+  <body>
+    <div id="app">
+      <span v-if="seen">
+          Now you see me
+      </span>
+
+
+      <ul>
+          <li v-for="todo in todos">
+            {{ todo.text }}
+          </li>
+      </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
