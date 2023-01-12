@@ -1,7 +1,7 @@
-const app = new Vue({
-  el: '#app',
-  data: {
-    message:
-      `You loaded this page on ${new Date().toLocaleString()}`,
-  },
-});
+const app = Vue.createApp({
+  data() {
+    return {
+      message: `You loaded this page on ${new Date().toLocaleString()}`
+    }
+  }
+}).mount('#app');
