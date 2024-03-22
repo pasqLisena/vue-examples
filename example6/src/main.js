@@ -7,6 +7,6 @@ const app = createApp({
       msg: 'Hello Vue!'
     }
   },
-  components: { Child }
+  components: { Child }
 }).mount('#app');
 
